@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-# test 5
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -107,7 +107,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = '/assets/' #define almacenaje archivos estaticos (DOM, css, js, etc)
+STATIC_URL = '/assets/' # defines storage for static files (CSS, JS, images, etc)
 STATICFILES_DIRS=(
 os.path.join(BASE_DIR, 'assets'),
 )
